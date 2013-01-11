@@ -1,3 +1,3 @@
-hello world
+name = ARGV.first || "World"
 
-weeeee
+puts "Hello, #{name}!"
